@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>SkillSpace</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/aa914f345f.js" crossorigin="anonymous"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm py-3 fixed-top w-100">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        Skill<span>Space</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav mx-auto fw-semibold">
+
+          <li class="nav-item"><a class="nav-link me-3" href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+          <li class="nav-item"><a class="nav-link  me-3" href="#about"><i class="fa-solid fa-circle-info"></i> About</a>
+          </li>
+          <li class="nav-item"><a class="nav-link  me-3" href="#skills"><i class="fa-solid fa-code"></i>
+              </i> Skills</a></li>
+          <li class="nav-item"><a class="nav-link  me-3" href="#project"><i class="fa-solid fa-folder-open"></i>
+              Projects</a></li>
+          <li class="nav-item"><a class="nav-link  me-3"href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+        </ul>
+
+        <a href="knowmore.html" class="btn enroll-btn">Know More</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero mt-5" id="vanta-bg">
+    <div class="hero-content ">
+      <div class="container">
+        <div data-aos="fade" class="my-details">
+          <h1 class="mt-5">Hi,I am Afiya Samad</h1><br>
+          <h5>Front-end Web Developer | UI Designer</h5>
+          <h5>I design and build modern, responsive websites
+            that help brands grow online</h5>
+          <div class="buttons-wrapper mt-5  ">
+            <div>
+              <a class="click-btn btn-style1 me-3"href="resume.html" onclick="openResume()">Resume</a>
+
+            </div>
+            <div>
+              <a class="click-btn btn-style2" href="https://github.com/Afiya-web">Github</a>
+            </div>
+          </div>
+          <hr class=" mt-5">
+          <div class="contact-strip mt-5">
+            <div class="contact-item">
+              <h6>Email</h6>
+              <p>afiyasamad@gmail.com</p>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="contact-item">
+              <h6>Phone</h6>
+              <p>+91 9113122071</p>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="contact-item">
+              <h6>Location</h6>
+              <p>Bihar, India</p>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+
+<script>
+VANTA.NET({
+  el: "#vanta-bg",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  color: 0x272757,
+  backgroundColor: 0x0b0b2d,
+  scaleMobile: 0.6
+});
+</script>
+
+  <!--about details-->
+  <!--education start-->
+  <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800" class="about-me" id="about">
+    <h1 class="text-center mt-5">About</h1>
+  </div>
+  <div data-aos="fade-up">
+    <section class="about container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12 containerx">
+          <header class="title mt-5">
+            <h2 class="heading m-3 ms-5">EDUACATION</h2>
+          </header>
+          <div class="content ps-4">
+            <span class="dot"></span>
+            <div class="card mb-3 p-4 shadow">
+              <h5>2021-2022</h5>
+              <h6>School Degree</h6>
+              <p>
+                Completed secondary education with a strong foundation in core subjects.
+                Developed discipline, communication skills, and interest in computer studies.
+              </p>
+            </div>
+
+
+            <span class="dot"></span>
+            <div class="card mb-3 p-4 shadow">
+              <h5>2022-2024</h5>
+              <h6>High school Degree</h6>
+              <p>Completed higher secondary education with focus on academics and skill development.
+                Built analytical thinking and problem-solving abilities.</p>
+            </div>
+
+
+            <span class="dot"></span>
+            <div class="card mb-3 p-4 shadow">
+              <h5>2024-2028</h5>
+              <h6>Bachelor's Degree</h6>
+              <p>Pursuing undergraduate studies while developing practical skills in web development
+                and computer applications.p>
+            </div>
+          </div>
+        </div>
+
+
+        <!--education end-->
+
+
+        <!--experience start-->
+
+
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <header class="title mt-5">
+            <h2 class="heading m-3 ms-5">EXPERIENCE</h2>
+          </header>
+          <div class="content ps-4">
+
+            <span class="dot"></span>
+            <div class="card mb-3 p-4 shadow">
+              <h5>2024-2024</h5>
+              <h6>ADCA(Advance diploma in computer application)</h6>
+              <p>Completed a comprehensive computer application course covering
+                MS Word, MS Excel, Tally, Photoshop, and Presentation tools.
+                Gained practical knowledge in document creation, data management,
+                basic accounting, graphic designing, and professional presentations.</p>
+            </div>
+
+
+            <span class="dot"></span>
+            <div class="card mb-3 p-4 shadow">
+              <h5>2024-2025</h5>
+              <h6>DWD(Diploma in Web Development)</h6>
+              <p>Completed diploma course focused on web design and front-end development.
+                Gained hands-on experience in HTML, CSS, Bootstrap, and basic UI design.</p>
+            </div>
+
+
+            <span class="dot"></span>
+            <div class="card mb-3 p-4 shadow">
+              <h5>2025-2026</h5>
+              <h6>Full Stalk Developer</h6>
+              <p>Completed full-stack development training covering front-end, back-end,
+                database management, and project development.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!--skills start-->
+  <section class="skill-section container my-5" id="skills">
+ <div data-aos="fade-up">
+  <div class="skill-card ">
+    <h3 class="text-center mb-4">Skills</h3>
+
+    <div class="row">
+      <!-- LEFT SIDE -->
+      <div class="col-md-6">
+        <div class="skill">
+          <div class="skill-head">
+            <i class="fa-brands fa-html5 html"></i>
+            <span>HTML</span>
+            <span>90%</span>
+          </div>
+          <div class="bar"><div class="fill html-fill"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head">
+            <i class="fa-brands fa-css3-alt css"></i>
+            <span>CSS</span>
+            <span>85%</span>
+          </div>
+          <div class="bar"><div class="fill css-fill"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head">
+            <i class="fa-brands fa-js js"></i>
+            <span>JavaScript</span>
+            <span>70%</span>
+          </div>
+          <div class="bar"><div class="fill js-fill"></div></div>
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div class="col-md-6">
+        <div class="skill">
+          <div class="skill-head">
+            <i class="fa-brands fa-python python"></i>
+            <span>Python</span>
+            <span>70%</span>
+          </div>
+          <div class="bar"><div class="fill python-fill"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head">
+            <i class="fa-brands fa-php php"></i>
+            <span>PHP</span>
+            <span>65%</span>
+          </div>
+          <div class="bar"><div class="fill php-fill"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head">
+            <i class="fa-brands fa-bootstrap bootstrap"></i>
+            <span>Bootstrap</span>
+            <span>85%</span>
+          </div>
+          <div class="bar"><div class="fill bootstrap-fill"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ </div>
+
+
+  <!--skills end-->
+
+  <!--experience end-->
+
+  <!--project start-->
+  
+  <section id="projects" class="projects container my-5">
+    <div data-aos="fade-up" id="project">
+  <h2 class="text-center mb-5">My Projects</h2>
+</div>
+
+  <div class="row g-4 container">
+
+    <!-- Project 1 -->
+     <div class="col-lg-4 col-md-6"data-aos="fade-up" data-aos-delay="0">
+      <div class="project-card">
+        <img src="images/myporfolio.png" alt="">
+        <h4>Portfolio Website</h4>
+        <p>Personal responsive portfolio using HTML, CSS & JS and bootstrap.</p>
+        <a href="#">View Project →</a>
+      </div>
+   </div>
+
+    <!-- Project 2 -->
+     <div class="col-lg-4 col-md-6"data-aos="fade-up" data-aos-delay="200">
+      <div class="project-card">
+        <img src="images/sarkariresult-clone.png" alt="">
+        <h4>Sarkari Result-Clone</h4>
+        <p>Clean user interface similar to sarkari result websites.
+This is a mock-up of a government-style result portal built using HTML, CSS.</p>
+        <a href="sarkari-result/sarkariresult/index.html">View Project →</a>
+      </div>
+   </div>
+
+    <!-- Project 3 -->
+     <div class="col-lg-4 col-md-6"data-aos="fade-up" data-aos-delay="400">
+      <div class="project-card">
+        <img src="images/calculator.png" alt="">
+        <h4>Calculator</h4>
+        <p>A fully responsive calculator web app created with HTML, CSS, and JavaScript. Includes basic arithmetic operations, clear button, and error handling for invalid inputs.</p>
+        <a href="calculator/index.html">View Project →</a>
+      </div>
+   </div>
+
+    <!-- Project 4 -->
+     <div class="col-lg-4 mt-3 col-md-6"data-aos="fade-up" data-aos-delay="600">
+      <div class="project-card">
+        <img src="images/indiatravel.png" alt="">
+        <h4>Indian Travel</h4>
+        <p>Indian Travel website showcasing popular tourist destinations, travel packages, and booking details using HTML, CSS.</p>
+        <a href="indiatravel/index.html">View Project →</a>
+      </div>
+   </div>
+
+    <!-- Project 5 -->
+     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="800">
+      <div class="project-card">
+        <img src="images/Todoapp.png" alt="">
+        <h4>Todo List</h4>
+        <p>A responsive ToDo app built with HTML, CSS, and JavaScript that allows users to add, delete, and mark tasks as completed.</p>
+        <a href="Todolist/index.html" target="_blank">View Project →</a>
+
+      </div>
+    </div>
+   
+
+    <!-- Project 6 -->
+     <div class="col-lg-4 col-md-6"data-aos="fade-up" data-aos-delay="1000">
+      <div class="project-card">
+        <img src="images/bischool.png" alt="">
+        <h4>BI School</h4>
+        <p>A responsive school website showcasing school information, classes, staff details, and contact form built using HTML, CSS.</p>
+        <a href="BIschool/index.html">View Project →</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!--project end-->
+
+
+
+
+<!--contact start-->
+<!-- CONTACT SECTION -->
+<section class="contact-section py-5" id="contact">
+  <div class="container">
+
+    <div data-aos="fade-up">
+      <h1 class="text-center mb-4">Contact Me</h1>
+    
+
+    <div class="row">
+      <div class="col-6 col-md-12">
+
+        <form class="shadow p-4 rounded bg-white form-box" data-aos="fade-up">
+
+          <!-- Name -->
+          <div class="mb-3">
+            <label class="form-label">Your Name</label>
+            <input type="text" class="form-control" placeholder="Enter your name">
+          </div>
+
+          <!-- Email -->
+          <div class="mb-3">
+            <label class="form-label">Email address</label>
+            <input type="email" class="form-control" placeholder="Enter your email">
+          </div>
+
+          <!-- Message -->
+          <div class="mb-3">
+            <label class="form-label">Message</label>
+            <textarea class="form-control" rows="4" placeholder="Type your message"></textarea>
+          </div>
+
+          <!-- Button -->
+          <div class="d-grid">
+            <button type="submit" class="btn btn-primary">
+              Send Message
+            </button>
+          </div>
+
+        </form>
+
+        <!-- SOCIAL LINKS -->
+       <div class="container">
+  <div class="social-links text-center mt-4">
+    <a href="https://instagram.com" class="me-3">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+
+    <a href="https://github.com/Afiya-web" class="me-3">
+      <i class="fa-brands fa-github"></i>
+    </a>
+
+    <a href="https://www.brainzima.com" class="me-3">
+      <img src="brainzimalogo.png" alt="" height="40px">
+    </a>
+
+    <a href="https://rexvel.com">
+      <img src="rexvel.png" alt="" height="40px">
+    </a>
+  </div>
+</div>
+
+</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- contact end -->
+
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 2000,      // animation speed (800–1200 best)
+      easing: 'ease-in-out',
+      once: true,          // ek baar hi animation
+      offset: 120,
+      delay: 1
+    });
+  </script>
+
+
+</body>
+
+
+</html>

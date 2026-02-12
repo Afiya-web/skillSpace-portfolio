@@ -1,0 +1,499 @@
+.header {
+    height: 200px;
+    width: 70vw;
+    background-color: rgb(179, 24, 50);
+    margin: auto;
+}
+
+.logo>img {
+    border-radius: 50%;
+    margin-left: 5vw;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.head {
+    display: flex;
+    text-align: center;
+    
+}
+
+.name {
+    font-size: 25px;
+    margin-left: 10vw;
+    color: white;
+    font-weight: bolder;
+}
+
+.name>h1>.text {
+    font-size: 22px;
+}
+
+.menus>.a {
+    height: 49px;
+   
+    width: 20vw;
+    background-color: black;
+    
+}
+
+.menus {
+    display: flex;
+    gap: 2px;
+    background-color: white;
+    
+}
+
+.menus>.a>a {
+    color: white;
+    font-size: 18px;
+    margin-left: 2vw;
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+    font-weight: 900;
+}
+.body>.text{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight:bold;
+}
+.body{
+    height: auto;
+    width:70vw ;
+    margin: auto;
+}
+.body2>.text{
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(215, 14, 14);
+    font-weight: bolder;
+    margin-bottom:15px;
+}
+marquee{
+    font-size: 22px;
+    font-weight: bolder;
+    
+}
+a{
+    font-size: 20px;
+    color: navy;
+    font-weight: bolder;
+    margin-left: 3vw;
+    
+}
+marquee>a{
+    color: navy;
+}
+.boxes{
+    width: 70vw;
+    margin:auto;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    
+}
+.box{
+    height: 70px;
+    width: 17vw;
+    background-color: rgb(97, 184, 9);
+}
+.box>.text{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bolder;
+}
+.box2{
+   height: 70px;
+    width: 17vw;
+    background-color:rgb(53, 53, 202); 
+}
+.box3{
+    height: 70px;
+    width: 17vw;
+    background-color:orangered;
+}
+.box4{
+    height: 70px;
+    width: 17vw;
+    background-color: brown;
+}
+.box5{
+    height: 70px;
+    width: 17vw;
+    background-color: rgb(222, 45, 45);
+}
+.box6{
+    height: 70px;
+    width: 17vw;
+    background-color: green;
+}
+.box7{
+    height: 70px;
+    width: 17vw;
+    background-color: rgb(196, 83, 196);
+}
+.box8{
+    height: 70px;
+    width: 17vw;
+    background-color: rgb(79, 149, 177)
+}
+.box2>.text{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bolder;
+}
+.box3>.text{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bolder;
+}
+.box4>.text{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bolder;
+}
+.box5>.text{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bolder;
+}
+.box6>.text{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bolder;
+}
+.box7>.text{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bolder;
+}
+.box8>.text{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bolder;
+}
+.container{
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    margin-top: 80px;
+    
+
+}
+.result{
+    height: 600px;
+    width: 20vw;
+    border: 2px solid red;
+    margin-left: 25px;
+}
+.result-head{
+    height: 40px;
+    width: 20vw;
+    background-color: brown;
+    
+}
+.result-head>.text{
+    color: white;
+    font-size: 27px;
+    font-weight: bolder;
+    margin-left: 7vw;
+}
+.result-head>.text2{
+    color: white;
+    font-size: 27px;
+    font-weight: bolder;
+    margin-left: 5.5vw;
+}
+.result-head>.text3{
+    color: white;
+    font-size: 27px;
+    font-weight: bolder;
+    margin-left: 5.5vw;
+}
+.list>li>a{
+    font-size: 18px;
+    margin: 0;
+    text-align: justify;
+    font-weight: lighter;
+    
+}
+.list>li{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: navy;
+}
+li>a{
+    color:rgb(8, 8, 228)
+}
+
+.result-body >.list>.more{
+    font-size: 22px;
+    color: navy;
+    font-weight: bolder;
+    text-align: end;
+    padding: 10px;
+}
+.container2{
+    width: 75vw;
+    margin: auto;
+    display: flex;
+}
+.answer-key{
+    height: 300px;
+    width: 20vw;
+    border: 2px solid red;
+}
+.first-container{
+    width: 44vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-left:4vw;
+    margin-top: 40px;
+}
+.answer-head{
+    height: 40px;
+    width: 20vw;
+    background-color: brown;
+}
+.answer-head>.text{
+    color: white;
+    font-size: 27px;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+.answer-body>li>a{
+    font-size: 17px;
+    font-weight: lighter;
+    margin: 0;
+ 
+    
+}
+.answer-body>li{
+    margin-top: 20px;
+    margin-left: 25px;
+    
+}
+.answer-body>.more{
+    color: navy;
+    font-size: 21px;
+    font-weight: bolder;
+    text-align: end;
+    padding: 10px;
+}
+.admission{
+    height: 650px;
+    width: 20vw;
+    border: 2px solid red;
+    margin: 0;
+    margin-top: 30px;
+}
+.admission-head{
+    height: 40px;
+    width: 20vw;
+    background-color: brown;
+}
+.admission-head>.text{
+    font-size: 28px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+.admission-list>li>a{
+    font-size: 17px;
+    font-weight: lighter;
+    margin: 0;
+}
+.admission-list>li{
+    margin-bottom: 18px;
+    margin-top: 15px;
+    text-align: justify;
+    margin-left:2vw;
+    margin-right: 2vw;
+}
+.admission-list>.more{
+    color: navy;
+    font-size: 21px;
+    font-weight: bolder;
+    text-align: end;
+    padding: 10px;
+}
+.resources{
+    width: 80vw;
+    margin: auto;
+    margin-top: 50px;
+    height: 450px;
+    border: 2px solid red;
+}
+.resource-head{
+    height: 40px;
+    width: 80vw;
+    background-color: brown;
+}
+.resource-head>.text{
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+.about-resource{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 30px;
+    
+   
+}
+.consider{
+    width: 80vw;
+    margin: auto;
+    margin-top: 50px;
+    height: 450px;
+    border: 2px solid red;
+    margin-top:0;
+}
+.consider-head{
+    height: 40px;
+    width: 80vw;
+    background-color: brown;
+}
+.consider-head>.text{
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+.jobs{
+    width: 80vw;
+    margin: auto;
+    margin-top: 50px;
+    height: 650px;
+    border: 2px solid red;
+    margin-top:0;
+}
+.working{
+     width: 80vw;
+    margin: auto;
+    margin-top: 50px;
+    height: 1570px;
+    border: 2px solid red;
+    margin-top:0;
+}
+.consider-body>.step{
+    font-size: 19px;
+    margin-top: 30px;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.list-box{
+    height: 24px;
+    width: 75vw;
+    border: 1px solid gray;
+    margin: auto;
+    font-size: 22px;
+    padding: 20px;
+    
+}
+.requirement{
+    font-size: 19px;
+    margin-top: 30px;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.working-resource{
+    font-size: 17px;
+    padding: 20px;
+    text-align: justify;
+    margin-top: 0;
+    
+}
+.sarkari{
+    height: 270px;
+    width: 80vw;
+    margin: auto;
+    border: 2px solid red;
+}
+.market{
+    height: 370px;
+    width: 80vw;
+    margin: auto;
+    border: 2px solid red; 
+}
+.sarkari-result{
+    height: 200px;
+    width: 80vw;
+    margin: auto;
+    border: 2px solid red;
+}
+.sarkari2-result{
+    height: 150px;
+    width: 80vw;
+    margin: auto;
+    border: 2px solid red;
+}
+.sarkari-state{
+    height: 170px;
+    width: 80vw;
+    margin: auto;
+    border: 2px solid red;
+}
+.sarkari-exam{
+    height: 330px;
+    width: 80vw;
+    margin: auto;
+    border: 2px solid red; 
+}
+.footer{
+    height: 550px;
+    width: 80vw;
+    /* border: 2px solid red; */
+    margin: auto;
+    display: flex;
+    gap: 50px;
+    margin-top: 60px;
+    
+}
+.quick-links{
+    margin-left: 100px;
+    line-height: 1.7;
+}
+.quick-links>li{
+    list-style: none;
+}
+.apps{
+     margin-left: 50px;
+    line-height: 1.7;
+}
+.more{
+     margin-left: 50px;
+    line-height: 1.7;
+}
+.some{
+     margin-left: 50px;
+    line-height: 1.7;
+    margin-top: 80px;
+}
+.some2{
+     margin-left: 50px;
+    line-height: 1.7;
+    margin-top: 80px;
+}
+@media  (min-width:200px) and (max-width:700px) {
+   .menu{
+    width: 100%;
+   }
+}

@@ -1,0 +1,974 @@
+.above-nav {
+   height: 18px;
+   width: 99vw;
+   background-color: rgb(33, 157, 157);
+   display: flex;
+   justify-content: space-between;
+   font-size: 18px;
+   color: white;
+}
+
+body {
+   overflow-x: hidden;
+}
+
+img {
+   height: 60px;
+   background-color: white;
+   border-radius: 50%;
+   margin-top: 6px;
+}
+
+.logo {
+   display: flex;
+   margin-left: 0px;
+}
+
+.navbar {
+   height: 80px;
+   width: 99vw;
+   display: flex;
+   gap: 0px;
+   justify-content: space-around;
+   background-color: teal;
+
+
+}
+
+.menu>ul {
+   display: flex;
+   gap: 30px;
+   list-style: none;
+   margin-top: 30px;
+}
+
+.text {
+   font-size: 10px;
+}
+
+.logo>h2 {
+   font-size: 30px;
+   position: relative;
+   margin-left: 15px;
+   top: 20px;
+   margin: 0;
+   color: white;
+}
+
+.menu>ul>li>a {
+   text-decoration: none;
+   font-size: 18px;
+   color: white;
+   cursor: pointer;
+}
+
+main {
+   /* background-color: aqua; */
+   min-height: 500px;
+   width: 99vw;
+}
+
+.mission {
+   display: flex;
+
+}
+
+.mission>img {
+   height: 400px;
+   width: 35vw;
+   border-radius: 0;
+   margin-top: 100px;
+   margin-left: 100px;
+   border-radius: 20px;
+
+}
+
+.mission>h2 {
+   font-size: 38px;
+   color: rgb(3, 89, 89);
+   margin-top: 100px;
+   margin-left: 70px;
+}
+
+.mission>h2>.text {
+   width: 45vw;
+   line-height: 1.4;
+   font-size: 18px;
+   color: rgb(64, 63, 63);
+   margin-top: 40px;
+   word-spacing: 10px;
+   text-align: justify;
+
+}
+
+button {
+   height: 50px;
+   width: 50%;
+   background-color: teal;
+   color: white;
+   font-size: 20px;
+   font-weight: bold;
+   border: none;
+   margin-top: 40px;
+   border-radius: 10px;
+}
+
+.achievement {
+   display: flex;
+
+}
+
+.achievement>h2 {
+   color: rgb(2, 69, 69);
+   font-size: 38px;
+   margin-top: 100px;
+   margin-left: 100px;
+
+}
+
+.achievement>img {
+   height: 400px;
+   width: 45vw;
+   border-radius: 0;
+   right: 50px;
+   margin-top: 130px;
+   margin-left: 70px;
+   border-radius: 20px;
+}
+
+.achievement>h2>.text {
+   font-size: 18px;
+   color: rgb(47, 44, 44);
+   line-height: 1.3;
+   word-spacing: 10px;
+   width: 35vw;
+   text-align: justify;
+   margin-top: 50px;
+}
+
+.facilities {}
+
+.facilities>h2 {
+   font-size: 38px;
+   color: rgb(4, 65, 65);
+   letter-spacing: 8px;
+   text-align: center;
+   margin-top: 100px;
+}
+
+.box>img {
+   height: 400px;
+   width: 22.8vw;
+   border-radius: 0;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   margin: 0;
+
+}
+
+.box {
+   height: 500px;
+   width: 350px;
+   background-color: rgb(208, 205, 205);
+   border-radius: 20px;
+   margin-top: 50PX;
+}
+
+.box>.text {
+   font-size: 28px;
+   text-align: center;
+   padding: 10px;
+   margin-top: 15px;
+   color: rgb(3, 73, 73);
+}
+
+.main-box {
+   display: flex;
+   gap: 100px;
+   margin-left: 100px;
+}
+
+.gallery>h2 {
+   font-size: 38px;
+   color: rgb(7, 75, 75);
+   text-align: center;
+   margin-top: 100px;
+   letter-spacing: 6px;
+}
+
+.gallery-box {
+   display: flex;
+   gap: 50px;
+   margin-left: 60px;
+   margin-top: 80px;
+}
+
+.box1>img {
+   height: 450px;
+   width: 20vw;
+   border-radius: 0;
+   border-radius: 20px;
+}
+
+.activities-box {
+   display: flex;
+   gap: 50px;
+   margin-top: 70px;
+   margin-left: 60px;
+}
+
+.box2 {
+   height: 480px;
+   width: 300px;
+   background-color: rgb(226, 223, 223);
+   border-radius: 20px;
+}
+
+.box2>.text {
+   font-size: 30px;
+   color: rgb(4, 77, 77);
+   text-align: center;
+   margin-top: 25px;
+}
+
+.box2>img {
+   height: 380px;
+   width: 19.5vw;
+   border-radius: 0;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   margin: 0;
+}
+
+.activities>h2 {
+   color: rgb(4, 78, 78);
+   font-size: 38px;
+   text-align: center;
+   margin-top: 80px;
+   letter-spacing: 7px;
+}
+
+.faculty {
+   display: flex;
+
+}
+
+.faculty>h2 {
+   color: rgb(4, 76, 76);
+   margin-top: 150px;
+   margin-left: 100px;
+   word-spacing: 10px;
+   line-height: 1.2;
+
+
+}
+
+.faculty>h2>.text {
+   color: rgb(52, 52, 52);
+   line-height: 1.3;
+   font-size: 18px;
+   word-spacing: 10px;
+   margin-top: 50px;
+   text-align: justify;
+   width: 35vw;
+}
+
+
+.faculty>img {
+   height: 350px;
+   width: 45vw;
+   text-align: center;
+   border-radius: 0;
+   margin-top: 160px;
+   width: 45vw;
+   margin-left: 4vw;
+   border-radius: 20px;
+
+
+}
+
+.about {
+   background-image: url(https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/QMQ6P5RPCII6TB4BOY3BT4JMWQ.jpg&w=1800&h=1800);
+   background-position: center;
+   background-color: aqua;
+   height: 400px;
+   width: 99vw;
+   position: relative;
+   bottom: 34px;
+}
+
+.about>a {
+   text-decoration: none;
+   font-size: 30px;
+   color: white;
+   margin-top: 50%;
+   position: relative;
+   top: 20%;
+   margin-left: 80px;
+}
+
+h1 {
+   font-size: 50px;
+   color: white;
+   position: relative;
+   top: 23%;
+   margin-left: 80px;
+   font-weight: bolder;
+}
+
+.body {
+   display: flex;
+}
+
+.about-image>img {
+   height: 350px;
+   width: 40vw;
+   border-radius: 0;
+   margin-top: 120px;
+   margin-left: 7vw;
+   border-radius: 20px;
+
+
+}
+
+.about-us>h3 {
+   font-size: 38px;
+   color: rgb(2, 75, 75);
+   margin-left: 7vw;
+   margin-top: 70px;
+}
+
+h3>.text {
+   font-size: 18px;
+   margin-top: 50px;
+   text-align: justify;
+   width: 35vw;
+   color: rgb(81, 80, 80);
+   line-height: 1.5;
+   word-spacing: 10px;
+
+}
+
+.philosophy {
+   display: flex;
+
+}
+
+.philosophy>h3 {
+   color: rgb(4, 73, 73);
+   font-size: 38px;
+   margin-left: 7vw;
+   margin-top: 100px;
+}
+
+.philosophy>h3>.text {
+   color: rgb(80, 77, 77);
+   line-height: 1.5;
+   font-size: 18px;
+   width: 40vw;
+
+}
+
+.philosophy-image>img {
+   height: 700px;
+   width: 35vw;
+   border-radius: 0;
+   border-radius: 20px;
+   margin-top: 100px;
+   margin-left: 100px;
+
+}
+
+.quality-policy {
+   font-size: 18px;
+   text-align: center;
+   width: 45vw;
+   margin-left: 30vw;
+
+
+
+}
+
+.quality-policy>h4 {
+   color: rgb(44, 43, 43);
+   font-size: 35px;
+   text-align: center;
+
+}
+
+.quality-policy>h4>.text {
+   color: rgb(47, 45, 45);
+   font-size: 18px;
+   line-height: 1.7;
+   word-spacing: 10px;
+   margin-top: 50px;
+
+}
+
+.gallery-page {
+   background-image: url(https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/QMQ6P5RPCII6TB4BOY3BT4JMWQ.jpg&w=1800&h=1800);
+   background-position: center;
+   background-color: aqua;
+   height: 400px;
+   width: 99vw;
+   position: relative;
+   bottom: 34px;
+}
+
+.gallery-page>a {
+   text-decoration: none;
+   font-size: 30px;
+   color: white;
+   text-align: center;
+   margin-left: 80px;
+   position: relative;
+   top: 20%;
+
+}
+
+.main-gallery {
+   display: flex;
+
+   align-items: center;
+   flex-wrap: wrap;
+   margin-bottom: 100px
+}
+
+.heading>h1 {
+   font-size: 38px;
+   color: rgb(4, 57, 57);
+   text-align: center;
+   letter-spacing: 6px;
+
+}
+
+.active {
+   color: navy !important;
+}
+
+.gallery-image>img {
+   height: 400px;
+   width: 25vw;
+   border-radius: 0;
+   border-radius: 20px;
+   margin-top: 80px;
+   margin-left: 4vw;
+
+}
+
+.faculty-image {
+   background-image: url(https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/QMQ6P5RPCII6TB4BOY3BT4JMWQ.jpg&w=1800&h=1800);
+   width: 99vw;
+   height: 400px;
+   background-position: center;
+}
+
+.faculty-image>h1 {
+   margin-top: 0;
+}
+
+.faculty-image>a {
+   text-decoration: none;
+   font-size: 30px;
+   color: white;
+   text-align: center;
+   margin-left: 80px;
+   position: relative;
+   top: 19%;
+}
+
+.faculty-boxes {
+   display: flex;
+}
+
+.faculty-box {
+   height: 500px;
+   width: 400px;
+   background-color: rgb(234, 229, 229);
+   margin-top: 100px;
+   border-radius: 20px;
+}
+
+.faculty-box>img {
+   height: 350px;
+   width: 400px;
+   border-radius: 0;
+   margin: 0;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+}
+
+.principal-image>img {
+   height: 400px;
+   width: 35vw;
+   border-radius: 0;
+   border-radius: 20px;
+   margin-left: 100px;
+   margin-top: 100px;
+}
+
+.principal-text>h2 {
+   color: rgb(1, 67, 67);
+   margin-top: 100px;
+   margin-left: 100px;
+
+}
+
+h2>.about-principal {
+   font-size: 18px;
+   line-height: 1.5;
+   word-spacing: 10px;
+   width: 40vw;
+   margin-top: 40px;
+   color: rgb(78, 76, 76);
+   text-align: justify;
+}
+
+.teachers-image {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 50px;
+   margin-left: 100px;
+}
+
+.about-teacher {
+   font-size: 20px;
+   margin-top: 10px;
+   margin-left: 80px;
+   line-height: 1.9;
+   color: rgb(1, 69, 69);
+   font-weight: bolder;
+}
+
+.contact-box {
+   height: 700px;
+   width: 70vw;
+   background-color: rgb(137, 190, 190);
+   margin: auto;
+   margin-top: 100px;
+}
+
+.contact-area {
+   height: 600px;
+   width: 60vw;
+   background-color: rgb(123, 119, 119);
+   margin: auto;
+   align-items: center;
+   position: relative;
+   top: 55px;
+   border-radius: 50px;
+   box-shadow: 10px 10px 35px;
+
+}
+
+.text-area>input {
+   height: 35px;
+   width: 40vw;
+   margin-top: 30px;
+   margin-left: 150px;
+   border-radius: 10px;
+   border: none;
+   padding: 10px;
+
+}
+
+.contact-area>button {
+   margin: auto;
+   width: 30%;
+   margin-left: 20vw;
+   margin-top: 30px;
+}
+
+.classes>h2 {
+   color: rgb(3, 62, 62);
+   text-align: center;
+   letter-spacing: 7px;
+}
+
+.classes-boxes {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 50px;
+   margin-left: 5vw;
+   margin-bottom: 100px;
+}
+
+.class-box {
+   height: 470px;
+   width: 300px;
+   background-color: rgb(170, 165, 165);
+   border-radius: 20px;
+}
+
+.class-box>img {
+   height: 300px;
+   width: 300px;
+   border-radius: 0;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   margin-top: 0;
+}
+
+.class-name {
+   font-size: 35px;
+   color: rgb(2, 58, 58);
+   margin-bottom: 10px;
+   margin-left: 6vw;
+   font-weight: 600;
+}
+
+.class-fee {
+   font-size: 25px;
+   color: rgb(2, 58, 58);
+   margin-left: 7vw;
+   margin-top: 10px;
+   font-weight: bold;
+}
+
+.button {
+   display: flex;
+ 
+}
+
+.button>button {
+   width: 9vw;
+   margin: auto;
+   margin-top: 30px;
+}
+
+.button>button>a {
+   text-decoration: none;
+   color: white;
+}
+
+.details{
+   color: white;
+   font-size: 27px;
+   text-align: center;
+   line-height: 1.7;
+   margin-top: 50px;
+}
+
+
+
+.details-box>h3 {
+   font-size: 38px;
+   color: rgb(2, 83, 83);
+   margin-left: 7vw;
+}
+
+.classes-details {
+   display: flex;
+   margin-bottom: 100px;
+}
+
+.classname-box {
+   background-color: rgb(70, 203, 203);
+   height: 650px;
+   width: 30vw;
+   margin-left: 5vw;
+   font-size: 22px;
+   text-align: center;
+   color: rgb(59, 55, 55);
+   font-weight: 900;
+}
+
+.classes>h3 {
+   font-size: 38px;
+   color: white;
+}
+
+.box-class {
+   height: 50px;
+   width: 25vw;
+   background-color: white;
+   margin-bottom: 10px;
+   margin-left: 40px;
+   border-radius: 10px;
+}
+
+.curriculum {
+   display: flex;
+}
+
+.activity-photo>img {
+   height: 400px;
+   width: 35vw;
+   border-radius: 0;
+   border-radius: 20px;
+   margin: 7vw;
+   margin-top: 80px;
+}
+
+.activity-text>h2 {
+   font-size: 38px;
+   color: rgb(3, 80, 80);
+   width: 40vw;
+   margin-top: 100px;
+
+}
+
+.activity-text>h2>.text {
+   font-size: 18px;
+   color: rgb(100, 95, 95);
+   line-height: 1.7;
+   word-spacing: 10px;
+   margin-top: 30px;
+   text-align: justify;
+
+}
+.curriculum2{
+   display:flex ;
+   margin-left: 7vw;
+   
+}
+.activity-text2{
+     font-size: 38px;
+   color: rgb(3, 80, 80);
+   width: 40vw;
+   
+}
+.activity-text2>h2>.text {
+   font-size: 18px;
+   color: rgb(100, 95, 95);
+   line-height: 1.7;
+   word-spacing: 10px;
+   margin-top: 30px;
+   text-align: justify;
+
+}
+
+.activity-photo2>img {
+   height: 400px;
+   width: 35vw;
+   border-radius: 0;
+   border-radius: 20px;
+   margin: 7vw;
+   margin-top: 50px;
+}
+.admission-box{
+   background-image: url(https://slowlivingldn.com/wp-content/uploads/2023/08/Book-pages-1400x1400@2x.jpg);
+   height: 700px;
+   width: 99vw;
+   background-position: center;
+   position: relative;
+   display: flex;
+   margin-bottom: 100px;
+   
+   
+}
+.apply>h3{
+   font-size: 45px;
+   color: black;
+   position: relative;
+   top:170px;
+   left: 7vw;
+   
+}
+.apply>h1{
+   font-size: 70px;
+   color: black;
+   position: relative;
+   top: 140px;
+   font-weight: 1200;
+   
+   
+   
+}
+
+.box-form{
+    height: 600px;
+   width: 500px;
+   background-color: rgb(37, 37, 37);
+   margin-top: 50px;
+   margin-left: 150px;
+   border-radius: 30px;
+   box-shadow: 10px 10px 25px;
+}
+.input-tag>h1{
+   position: relative;
+   top: 10px;
+   left: 70px;
+}
+.input-tag>input{
+   height: 30px;
+   width: 70%;
+   margin-bottom: 30px;
+   margin-left: 50px;
+   border-radius: 10px;
+   padding: 10px;
+}
+.input-tag>a>button{
+   width: 74%;
+   position: relative;
+   left: 50PX;
+   bottom: 40px;
+   cursor: pointer;
+}
+.payment{
+   display: flex;
+   gap: 50px;
+   
+}
+.qr>img{
+   height: 450px;
+   width: 500px;
+   border-radius: 0;
+   margin-left: 100px;
+   margin-bottom: px;
+}
+.payment-apply>h1{
+   color: rgb(3, 71, 71);
+   text-align: center;
+   text-decoration: double;
+}
+.bank-box>.head{
+   color: white;
+   text-align: center;
+   font-size: 35px;
+   padding: 20px;
+   font-weight: bolder;
+}
+.qr>.text{
+   font-size: 22px;
+   margin-left: 14vw;
+   font-weight: 900;
+   margin-bottom: 80px;
+}
+.footer-info {
+   display: flex;
+   background-color: teal;
+   gap: 0px;
+   justify-content: space-around;
+   height: 500px;
+   width: 99vw;
+}
+.bank-box{
+   height: 550px;
+   width: 500px;
+   background-color: rgb(3, 82, 82);
+   margin-left: 100px;
+}
+.details>.text{
+   font-size: 20px;
+   color: white;
+   margin-left: 80px;
+   margin-bottom: 10px;
+}
+.details>input{
+   height: 15px;
+   width: 70%;
+   margin-left: 70px;
+   padding: 10px;
+}
+.confirm>button{
+   margin-left: 8vw;
+   margin-top: 0;
+   margin-top: 30px;
+}
+.addmision-process{
+   margin-left: 10vw;
+   margin-bottom: 100px;
+}
+
+.addmision-process>h1{
+   font-size: 40px;
+   color: black;
+   margin-top: 50px;
+}
+.addmision-process>h3{
+   font-size: 30px;
+   color: black;
+}
+.addmision-process>h3>.text{
+   width: 70vw;
+}
+
+.footer-logo {
+   font-size: 20px;
+   width: 30vw;
+   text-align: justify;
+   margin-top: 30px;
+   color: white;
+
+
+}
+
+.footer-contact {
+   margin-right: 30px;
+   font-size: 22px;
+   margin-left: 40px;
+   color: white;
+   width: 20vw;
+   margin-top: 50px;
+
+}
+
+p {
+   line-height: 2;
+}
+
+.footer-link {
+   width: 20vw;
+   font-size: 22px;
+   margin-left: 40px;
+   margin-top: 50px;
+}
+
+.footer-link>ul {
+   list-style: none;
+
+}
+
+
+
+.footer-link>ul>li>a {
+   text-decoration: none;
+   color: white;
+
+}
+
+h2 {
+   font-size: 50px;
+}
+
+h5 {
+   margin-top: 30px;
+   font-size: 40px;
+   color: white;
+}
+
+.footer-copy {
+   text-align: center;
+   height: 40px;
+   font-size: 20px;
+   background-color: rgb(33, 157, 157);
+
+   width: 99vw;
+   color: white;
+}
+
+.pic {
+   height: 600px;
+   width: 99vw;
+   background-color: aqua;
+   background-image: url(https://img.freepik.com/premium-photo/school-bright-classroom-background_655257-169.jpg?w=2000);
+   background-position: center;
+
+}
+
+.welcome {
+   font-size: 40px;
+   position: relative;
+   top: 140px;
+   text-align: center;
+   font-weight: bolder;
+}
+
+.image-text {
+   font-size: 80px;
+   text-align: center;
+   position: relative;
+   top: 150px;
+   font-weight: bolder;
+}
