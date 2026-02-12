@@ -1,2 +1,2 @@
 # skillSpace-portfolio
-Personal portfolio website showcasing my web development skills, projects &amp; learning journey — built with HTML, CSS, &amp; JS 
+SkillSpace Portfolio – A responsive personal portfolio showcasing my projects and skills, built with HTML, CSS, Bootstrap, and JavaScript.
